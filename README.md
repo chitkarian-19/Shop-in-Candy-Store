@@ -30,3 +30,5 @@ Code Approach: First sort the array and then just add Math.ceil(n/k+1) numbers f
         return op;
     }
 
+
+Practise link: https://practice.geeksforgeeks.org/problems/shop-in-candy-store1145/1
