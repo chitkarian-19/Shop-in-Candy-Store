@@ -9,7 +9,7 @@ Now you have to answer two questions. Firstly, you have to find what is the mini
 
 Code Approach: First sort the array and then just add Math.ceil(n/k+1) numbers from start to get the min amount. To get the max amount get Math.ceil(n/k+1) numbers from ending.
 
-class Solution{
+
     static ArrayList<Integer> candyStore(int candies[],int n,int k){
         // code here
         Arrays.sort(candies);
@@ -29,4 +29,4 @@ class Solution{
         
         return op;
     }
-}
+
